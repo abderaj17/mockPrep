@@ -1,0 +1,21 @@
+PSEUDO Classes -
+These are used to target elements based on their state or position
+in the document.
+They are denoted by (:) colon followed by the pseudo-class name.
+
+EX- :hover
+    :active
+    :focus
+    :first-child
+    :last-child
+
+PSEUDO Elements -
+Pseudo elements are used to target a specific part of an element,
+such as its content , before or after content, or its first letter.
+They are denoted by a double colon(::) followed by the pseudo-element name
+
+EX- ::before
+    ::after
+    ::first-letter
+    ::first-line
+

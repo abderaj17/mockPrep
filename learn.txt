@@ -19,3 +19,15 @@ EX- ::before
     ::first-letter
     ::first-line
 
+
+Z-Index: The z-index property in css is used to specify the stacking
+order of element that overlap with each other.
+It determines which element is displayed on top of another.
+
+
+KeyFrames are used to create the animations in CSS.
+Then animation name , duration, timing-function, delay.
+
+
+In CSS , transform, transition, animation are three distinct properties that help create
+visual effects and interactions.

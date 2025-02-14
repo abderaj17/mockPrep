@@ -31,3 +31,45 @@ Then animation name , duration, timing-function, delay.
 
 In CSS , transform, transition, animation are three distinct properties that help create
 visual effects and interactions.
+
+
+
+------->>>> DAY2 <<<<-------
+
+---->> HTML <<----
+
+Different types of HTML Elements->
+
+Majorly 2 types ---> Void(no closing tag) & Non Void(closing tag).
+
+1) Heading Elements == h1 ---- h6
+2) Stuctural Elements ==>>
+    header, nav, main, section, article, aside, footer.
+3) Text Elements==>>
+   p, span, a, strong, em, i, bold, small, mark, del, code, kbd, samp, var, br.
+4) Image and Multimedia Elements=>>
+   img, audio, video, figure, figcaption, track.
+5) Table Elements=>>
+   table, thead, tbody, tr, td, th, caption, colspan, tfoot.
+6) Form Elements==>>
+   input, form, label, button, select, optgroup, option, textarea, progress, meter, output.
+7) Semantic Elements==>>
+   abbr, address, blockquote, cite, data.
+
+
+
+FORMS -->>
+action -> Specify the URL that will process the form data when submitted.
+           action="/submit-form"
+method -> Specify the HTTP method to use when submitting the form data.
+           get, post, put, delete, etc.
+target -> Specify where to display the response from the server after submiting the form.
+          _self, _blank, _parent
+novalidate -> Specifies that the from should not be validate when submitted.
+
+autocomplete -> Autocompleted completed by browser.
+
+
+<iframe> tag -> This is used to embed another HTML document within the current HTML
+                 document. It creates an inline frame that can display content from another source.
+                 

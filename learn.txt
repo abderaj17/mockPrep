@@ -72,4 +72,14 @@ autocomplete -> Autocompleted completed by browser.
 
 <iframe> tag -> This is used to embed another HTML document within the current HTML
                  document. It creates an inline frame that can display content from another source.
-                 
+
+                 Attributes:
+                 src, width, heigth, frameborder, scrolling, allowfullscreen
+
+                 Example: <iframe src="http://www.example.com" width="400" heigth="300" frameborder="0" scrolling="yes" allowfullscreen="true"></iframe>
+
+
+
+*  REGEX code for Email Validation ==>> (/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/);
+-->> .test() to test the formatting matching of the String.
+

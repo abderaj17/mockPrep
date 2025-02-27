@@ -83,3 +83,16 @@ autocomplete -> Autocompleted completed by browser.
 *  REGEX code for Email Validation ==>> (/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/);
 -->> .test() to test the formatting matching of the String.
 
+
+
+----->>>>> Another Day<<<<------
+
+Clip Path Property -->> 
+This property in css used to define a clipping region for an element , making only a specific part of the element
+visible while hiding the rest.
+
+Ex--->> img{
+   clip-path: circle(50%);
+   width: 200px;
+   heigth: 200px;
+}

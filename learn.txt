@@ -96,3 +96,60 @@ Ex--->> img{
    width: 200px;
    heigth: 200px;
 }
+
+-->> Opacity property in CSS is used to set the transparency of an element. It specifies how 
+opaque (solid) or transparent and element is.
+
+(.element{
+   Opacity: 0.5;
+})
+
+
+Grid & Flexbox -->>
+        Both used for responsive and flexible layouts. But also they have some 
+        limitations and used for different purpose and scenarios.
+   
+   Flexbox -> Simple layouts, Dyanamic content, Responsive design.
+
+   Grid -> Complex layouts, Multi Column layouts, Grid Based design.
+
+
+--->>> Overflow Property =>> The Overflow property in css controls how content is handled when it exceeds the
+      boundaries of its container. controls clip, scroll, expand.
+
+      (Overflow -->> visible| hidden| scroll| auto| inherit);
+
+
+Relative -->> Positioning schemas position and element relative to its normal position.
+             The element is shifted from its original  position but still occupies space in the
+             normal document flow.
+
+Absolute -->> Positioning schemas remove an element from the normal document flow
+              and position it relative to its nearest positioned ancestor(instead of  its normal position).
+              The element does not occupy space in the normal document flow.
+
+
+
+-->> Tansform Transition and Animations <<---
+
+Tansform-> This property changes the appearance of an element by applying
+            a tansformation such as : Rotating, Scaling, Translating(moving),Skewing.
+
+Transition -> This property controls the way an element changes from one state to another.
+               It specifies the duration , timing function, and delay of the transition.
+               Such as: hover, :active, or :focus etc.
+
+Animations -> The animation Property allows you to define a sequence of styles and apply them
+               to an element over a specified period. Animations can be repeated, paused ,
+                and controlled using various properties.
+
+
+
+                       ---->>>> JAVASCRIPT <<<<---
+ 
+ Data types in JAVASCRIPT-->>
+ 1) Primitive ==>> Numbers, String,  Boolean(true, false), Null, Undefined, Symbols.
+
+ 2) Non-Primitive ==>> Object({}), Array([]), function(()=>{}), Date, RegExp(/^[a-zA-Z0-9]+$/). 
+
+

@@ -153,3 +153,62 @@ Animations -> The animation Property allows you to define a sequence of styles a
  2) Non-Primitive ==>> Object({}), Array([]), function(()=>{}), Date, RegExp(/^[a-zA-Z0-9]+$/). 
 
 
+
+Let, Var, & Const --->>
+
+Let-> Let was introduces by ECMAScript 2015(ES6) as a new way to declare variable.
+     It is similar to var but has some difference as:
+   i) Block scope: Variable declare with let have block scope, which mean they are only 
+      accessible within the block in which they are declared.
+
+  ii) No hoisting: Variables declared with let are not hoisted to the top of their scope,
+     which means they are only accessible after the actual declaration is made.
+
+ iii) Variables declared with let cannot be redecalred in the same scope.
+ 
+
+
+ ---->>Another Day<<-----
+
+ Closure -> Closure allow funtions to remember variable even after the outer function has finished
+             execution.
+             Closure are created when a function is defined inside another function and accesses variable
+             from the outer function.
+
+
+
+Asynchronous -> Is the non blocking in architecture, so the execution of one task
+               isn't dependent on another. Tasks can run simultenously.
+
+Synchronous -> It is a blocking architecture, so the execution of each operation depends on
+                completing the  one before it. Each operation require answer before moving on to
+                the next iteration.
+
+
+
+Callback -> A Callback is a funtions that is passed as an argument in another function.
+            It is executed by that function. 
+            Used for Handeling events such as mouse clicks or keyboard input.
+
+
+
+SetTimeOut -> SetTimeOut is a function that executes a block of code after a specified amount 
+             of time.
+
+SetInterVal -> SetInterVal is a function that executed a block of code Repeatedly after a specified amount of time.
+
+
+
+  * There is three main client-side storage options: LocalStorage,
+    sessionStorage, and cookies. Each has its own strenghts, weakness, and use cases.
+
+LocalStorage-> LocalStorage allows data to be stored locally on the user's browser.
+               The data stored as key value pairs and it is persistent("jiddi"). Means it
+               remain even after browser is closed.  (5MB)
+
+SessionStorage-> SessionStorage same as the LocalStorage but it will avaiable until user closes
+                  the browser. (5MB)
+
+Cookies->  Cookies are small text files that are stored on the user's device by the web browser.
+           They are sent to the server with each HTTP request, 
+           allowing the server to store and retrieve data.

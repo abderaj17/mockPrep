@@ -220,4 +220,4 @@ PROMISE -->> A PROMISE in JAVASCRIPT is an Object that represent the eventual co
              readable way, also avoids Callback hell(Pyramid of doom).
              __3 States of PROMISE --> Pending(Initial state)
                                        Fulfilled(Resolved)
-                                       Rejected(failed)
+                                       Rejected(failed).

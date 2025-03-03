@@ -211,4 +211,13 @@ SessionStorage-> SessionStorage same as the LocalStorage but it will avaiable un
 
 Cookies->  Cookies are small text files that are stored on the user's device by the web browser.
            They are sent to the server with each HTTP request, 
-           allowing the server to store and retrieve data.
+           allowing the server to store and retrieve data. (4KB).
+
+
+
+PROMISE -->> A PROMISE in JAVASCRIPT is an Object that represent the eventual completion of and 
+             Asynchronous operation. By this we can handle Asynchronous operation in clean and
+             readable way, also avoids Callback hell(Pyramid of doom).
+             __3 States of PROMISE --> Pending(Initial state)
+                                       Fulfilled(Resolved)
+                                       Rejected(failed)

@@ -231,4 +231,8 @@ Aync/Await -->> Async/Await is a syntax sugar on top of promise that makes async
                         Await: A keyword that pauses the execution of an Async function until a 
                                promise is resolved or rejected.
          
-         Used for -> Readibility(easy to read);
+         Used for -> Readibility(easy to read)
+                     Error Handeling(try/catch)
+
+         Used with -> PROMISE
+         Avoid with -> Callback

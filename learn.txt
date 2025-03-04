@@ -215,7 +215,7 @@ Cookies->  Cookies are small text files that are stored on the user's device by 
 
 
 
-PROMISE -->> A PROMISE in JAVASCRIPT is an Object that represent the eventual completion of and 
+PROMISE -->> A PROMISE in JAVASCRIPT is an Object that represent the eventual completion of an 
              Asynchronous operation. By this we can handle Asynchronous operation in clean and
              readable way, also avoids Callback hell(Pyramid of doom).
              __3 States of PROMISE --> Pending(Initial state)
@@ -225,4 +225,8 @@ PROMISE -->> A PROMISE in JAVASCRIPT is an Object that represent the eventual co
 
    ---->>> Another Day <<<-----
 
-Aync/Await -->>
+Aync/Await -->> Async/Await is a syntax sugar on top of promise that makes asynchronous code look
+               and feel Synchronous.
+         Key concept -> Async: A function that returns a promise.
+                        Await: A keyword that pauses the execution of an Async function until a 
+                               promise is resolved or rejected.

@@ -90,3 +90,15 @@ const myPromise = new Promise((resolve, reject)=>{
     }, 2000);
 });
 console.log("Promise created...");
+
+
+
+
+async function example() {
+    try{
+        const data = await fetchData();
+        console.log(data);
+    }catch(err){
+        console.log(err);
+    }
+}

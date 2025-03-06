@@ -236,3 +236,17 @@ Aync/Await -->> Async/Await is a syntax sugar on top of promise that makes async
 
          Used with -> PROMISE
          Avoid with -> Callback
+
+
+difference b/w .then() and Async/Await--->>>
+
+.then() is the traditional way of Handeling Promises. It uses "method chaining" to process the
+        result of an asynchronous operation.
+
+   Pros -> Works well with multiple .then() chains.
+           Explicit error handeling using .catch().
+           Older and widely supported in JAVASCRIPT.
+
+   Cons -> Can lead Callback hell (nested .then()).
+           Harder to read when chaining multiple Async calls. 
+          

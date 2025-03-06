@@ -250,3 +250,14 @@ difference b/w .then() and Async/Await--->>>
    Cons -> Can lead Callback hell (nested .then()).
            Harder to read when chaining multiple Async calls. 
           
+
+
+SHALLOW Copy & DEEP Copy -->>
+
+Shallow Copy -> A Shallow copy creates a new Object, but it only copies references to 
+                nested Objects insteadof duplicating them.
+                spread operator
+
+Deep Copy -> A deep copy duplicates everything, including nested objects, ensuring 
+             that changes to the copy do not affect the original object.
+             structuredClone used for Deep copy.

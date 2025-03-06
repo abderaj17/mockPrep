@@ -74,3 +74,29 @@ getData();
 
 // fetchTodo();
 
+
+//shallow copy
+let obj1 = {
+    name: "Alice",
+    details: {age: 25, city: "New York"},
+};
+
+let obj2 = {...obj1};
+
+obj2.details.age = 30;
+
+console.log(obj1.details.age);
+console.log(obj2.details.age);
+
+
+//deep Copy
+let obj3 = {
+    name: "Alice",
+    details: {age: 25, city: "New York"},
+};
+
+let obj4 = JSON.parse(JSON.stringify(obj1));
+obj4.details.age = 30;
+
+console.log(obj3.details.age)
+console.log(obj4.details.age)

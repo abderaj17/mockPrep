@@ -261,3 +261,9 @@ Shallow Copy -> A Shallow copy creates a new Object, but it only copies referenc
 Deep Copy -> A deep copy duplicates everything, including nested objects, ensuring 
              that changes to the copy do not affect the original object.
              structuredClone used for Deep copy.
+
+      (*)-> Shallow copy is faster but keeps references to nested objects.
+            Deep copy is slower but ensures a true duplication.
+            Use Shallow copy (..., Object.assign()) for simple objects.
+            Use deep copy (structuredClone(), _.cloneDeep()) for complex Objects.
+

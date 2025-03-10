@@ -1,53 +1,53 @@
-var temp = 'hello';
-function display(){
-    console.log(temp);
-   var temp = 'bye';
-};
-display();
+// var temp = 'hello';
+// function display(){
+//     console.log(temp);
+//    var temp = 'bye';
+// };
+// display();
 
 
-function fetchData(){
-    return new Promise((resolve, reject)=>{
-        setTimeout(() => {
-            resolve("Data Fetched");
-        }, 2000);
-    });
-}
+// function fetchData(){
+//     return new Promise((resolve, reject)=>{
+//         setTimeout(() => {
+//             resolve("Data Fetched");
+//         }, 2000);
+//     });
+// }
 
 
 //using .then --->>
 
-fetchData()
-.then(response =>{
-    console.log(response);
-    return "Next Step";
-})
-.then(next =>{
-    console.log(next);
-})
-.catch(error => console.log("Error:", error));
+// fetchData()
+// .then(response =>{
+//     console.log(response);
+//     return "Next Step";
+// })
+// .then(next =>{
+//     console.log(next);
+// })
+// .catch(error => console.log("Error:", error));
 
 
 // using async await -->>
 
-async function fetchData2() {
-    return new Promise((resolve, reject)=>{
-        setTimeout(() => {
-            resolve("Data Fetched")
-        }, 2000);
-    });
-}
+// async function fetchData2() {
+//     return new Promise((resolve, reject)=>{
+//         setTimeout(() => {
+//             resolve("Data Fetched")
+//         }, 2000);
+//     });
+// }
 
-async function getData() {
-    try{
-        const response = await fetchData();
-        console.log(response);
-        console.log("Next Step");
-    }catch(error){
-        console.error("Error:", error)
-    }
-}
-getData();
+// async function getData() {
+//     try{
+//         const response = await fetchData();
+//         console.log(response);
+//         console.log("Next Step");
+//     }catch(error){
+//         console.error("Error:", error)
+//     }
+// }
+// getData();
 
 
 
@@ -76,27 +76,55 @@ getData();
 
 
 //shallow copy
-let obj1 = {
-    name: "Alice",
-    details: {age: 25, city: "New York"},
-};
+// let obj1 = {
+//     name: "Alice",
+//     details: {age: 25, city: "New York"},
+// };
 
-let obj2 = {...obj1};
+// let obj2 = {...obj1};
 
-obj2.details.age = 30;
+// obj2.details.age = 30;
 
-console.log(obj1.details.age);
-console.log(obj2.details.age);
+// console.log(obj1.details.age);
+// console.log(obj2.details.age);
 
 
-//deep Copy
-let obj3 = {
-    name: "Alice",
-    details: {age: 25, city: "New York"},
-};
+// //deep Copy
+// let obj3 = {
+//     name: "Alice",
+//     details: {age: 25, city: "New York"},
+// };
 
-let obj4 = JSON.parse(JSON.stringify(obj1));
-obj4.details.age = 30;
+// let obj4 = JSON.parse(JSON.stringify(obj1));
+// obj4.details.age = 30;
 
-console.log(obj3.details.age)
-console.log(obj4.details.age)
+// console.log(obj3.details.age)
+// console.log(obj4.details.age)
+
+
+
+//destructuring
+
+const numbers = [ 10, 20, 40];
+
+// const first  = numbers[0]; //without destructuring
+// const second = numbers[1];
+
+//with destructuring
+const [ , thirdNum] = numbers;
+
+console.log(thirdNum); //skipping values
+
+//without distructuring
+
+// const person = {
+//     name: 'John',
+//     age: 25,
+// };
+
+// const name = person.name;
+// const age =  person.age;
+
+// const {name: personName, age: personAge} = person;
+
+

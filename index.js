@@ -105,15 +105,15 @@
 
 //destructuring
 
-const numbers = [ 10, 20, 40];
+// const numbers = [ 10, 20, 40];
 
 // const first  = numbers[0]; //without destructuring
 // const second = numbers[1];
 
 //with destructuring
-const [ , thirdNum] = numbers;
+// const [ , thirdNum] = numbers;
 
-console.log(thirdNum); //skipping values
+// console.log(thirdNum); //skipping values
 
 //without distructuring
 
@@ -130,17 +130,30 @@ console.log(thirdNum); //skipping values
 
 //destructuring object
 
-const person = {
-    name: "Ab",
-    age: 42,
+// const person = {
+//     name: "Ab",
+//     age: 42,
+// }
+
+// const {name: personName, age: personAge} = person;
+
+// console.log(personName)
+
+// const colors = [['red', 'green'],['blue', 'yellow']];
+
+// const [[firstColor], [,secondColor]] = colors;
+
+// console.log(secondColor);
+
+
+function greet ({name, age}){
+    console.log(`Hello, ${name}. You are ${age} years old`);
 }
+const person = {name: "Emma", age: 22};
 
-const {name: personName, age: personAge} = person;
+greet(person);
 
-console.log(personName)
-
-const colors = [['red', 'green'],['blue', 'yellow']];
-
-const [[firstColor], [,secondColor]] = colors;
-
-console.log(secondColor);
+function getFirstTwo([first,second]){
+    return `First: ${first}, Second: ${second}`;
+}
+console.log(getFirstTwo([10, 20]));

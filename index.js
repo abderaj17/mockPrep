@@ -128,3 +128,19 @@ console.log(thirdNum); //skipping values
 // const {name: personName, age: personAge} = person;
 
 
+//destructuring object
+
+const person = {
+    name: "Ab",
+    age: 42,
+}
+
+const {name: personName, age: personAge} = person;
+
+console.log(personName)
+
+const colors = [['red', 'green'],['blue', 'yellow']];
+
+const [[firstColor], [,secondColor]] = colors;
+
+console.log(secondColor);

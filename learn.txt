@@ -88,7 +88,8 @@ autocomplete -> Autocompleted completed by browser.
 ----->>>>> Another Day<<<<------
 
 Clip Path Property -->> 
-This property in css used to define a clipping region for an element , making only a specific part of the element
+This property in css used to define a clipping region for an element ,
+making only a specific part of the element
 visible while hiding the rest.
 
 Ex--->> img{
@@ -114,8 +115,9 @@ Grid & Flexbox -->>
    Grid -> Complex layouts, Multi Column layouts, Grid Based design.
 
 
---->>> Overflow Property =>> The Overflow property in css controls how content is handled when it exceeds the
-      boundaries of its container. controls clip, scroll, expand.
+--->>> Overflow Property =>> The Overflow property in css controls how content 
+                             is handled when it exceeds the
+                            boundaries of its container. controls clip, scroll, expand.
 
       (Overflow -->> visible| hidden| scroll| auto| inherit);
 

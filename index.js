@@ -163,3 +163,21 @@ const [first, ...rest] = [1,2,3,4,5,6];
 
 console.log(first)
 console.log(rest)
+
+
+
+function greet(name){
+    console.log(`Hello , ${name}`);
+}
+
+const greet = function(name){
+    console.log(`Hello, ${name}`);
+}
+
+const greet = (name) =>{
+    console.log(`Hello, ${name}`);
+}
+
+(function(name){
+    console.log(`Hello, ${name}`);
+})("John");

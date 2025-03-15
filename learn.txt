@@ -285,4 +285,15 @@ DOM -->> DOM represents as Document object model that is a programming interface
          HTML and CSS Dyanamically.
       
       * The DOM represents the webpage as a tree-like structure where elements(tags) are nodes.
-      
+
+
+
+Event-Handeling -->> Event handeling is the process of detecting and responding to user actions
+                     like clicks, key presses, mouse movements, form submission, etc.
+
+
+
+Event-Delegation -> It is a JAVASCRIPT technique where a single event listener is added to a _parent
+                    element instead of  multiple listener on individual child elements. 
+               * Allowing Efficient event handeling.
+               * Avoids  adding multiple event listeners.

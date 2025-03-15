@@ -269,3 +269,12 @@ Deep Copy -> A deep copy duplicates everything, including nested objects, ensuri
             Use Shallow copy (..., Object.assign()) for simple objects.
             Use deep copy (structuredClone(), _.cloneDeep()) for complex Objects.
 
+
+Primitive Types -> Number, String, Boolean, Null, Undefined, Symbol.
+Reference Types -> Array, Object, Function.
+
+Types Coercion -> 2 types --
+                  Implicit
+                  Explicit -> method-> Number(), String(), Boolean().
+
+Template Literals -->> (``);

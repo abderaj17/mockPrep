@@ -146,38 +146,74 @@
 // console.log(secondColor);
 
 
-function greet ({name, age}){
-    console.log(`Hello, ${name}. You are ${age} years old`);
+// function greet ({name, age}){
+//     console.log(`Hello, ${name}. You are ${age} years old`);
+// }
+// const person = {name: "Emma", age: 22};
+
+// greet(person);
+
+// function getFirstTwo([first,second]){
+//     return `First: ${first}, Second: ${second}`;
+// }
+// console.log(getFirstTwo([10, 20]));
+
+
+// const [first, ...rest] = [1,2,3,4,5,6];
+
+// console.log(first)
+// console.log(rest)
+
+
+
+// function greet(name){
+//     console.log(`Hello , ${name}`);
+// }
+
+// const greet = function(name){
+//     console.log(`Hello, ${name}`);
+// }
+
+// const greet = (name) =>{
+//     console.log(`Hello, ${name}`);
+// }
+
+// (function(name){
+//     console.log(`Hello, ${name}`);
+// })("John");
+
+
+// const greet = new Function('name', 'console.log(`Hello, ${name}`);');
+
+
+// const obj = {
+//     greet: function(name){
+//         console.log(`Hello, ${name}`);
+//     }
+// };
+
+// class Person {
+//     greet(name) {
+//         console.log(`Hello, ${name}`);
+//     }
+// }
+
+
+
+// //functions declaration
+// function sum(a, b){
+//     return a+b;
+// }
+
+// //function expression
+// const add = function(a, b){
+//     return
+//      a + b;
+// }
+
+
+//default parameter in function
+function adarsh(nickname = "Raj"){
+    console.log(`Hello, ${nickname}`);
 }
-const person = {name: "Emma", age: 22};
-
-greet(person);
-
-function getFirstTwo([first,second]){
-    return `First: ${first}, Second: ${second}`;
-}
-console.log(getFirstTwo([10, 20]));
-
-
-const [first, ...rest] = [1,2,3,4,5,6];
-
-console.log(first)
-console.log(rest)
-
-
-
-function greet(name){
-    console.log(`Hello , ${name}`);
-}
-
-const greet = function(name){
-    console.log(`Hello, ${name}`);
-}
-
-const greet = (name) =>{
-    console.log(`Hello, ${name}`);
-}
-
-(function(name){
-    console.log(`Hello, ${name}`);
-})("John");
+adarsh();

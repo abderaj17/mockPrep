@@ -278,3 +278,11 @@ Types Coercion -> 2 types --
                   Explicit -> method-> Number(), String(), Boolean().
 
 Template Literals -->> (``);
+
+
+DOM -->> DOM represents as Document object model that is a programming interface that
+         represents a web page in a structured format. allowing JAVASCRIPT to manipulete
+         HTML and CSS Dyanamically.
+      
+      * The DOM represents the webpage as a tree-like structure where elements(tags) are nodes.
+      

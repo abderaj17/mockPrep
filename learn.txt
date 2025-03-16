@@ -297,3 +297,7 @@ Event-Delegation -> It is a JAVASCRIPT technique where a single event listener i
                     element instead of  multiple listener on individual child elements. 
                * Allowing Efficient event handeling.
                * Avoids  adding multiple event listeners.
+
+
+(*)-> In JAVASCRIPT, the "this" keyword refers to the context in which a funciton is executed.
+      Its value depends on how and where the function is called.

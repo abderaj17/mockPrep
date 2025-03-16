@@ -228,3 +228,11 @@ const ab = {
     }
 };
 ab.greet();
+
+function greet(greeting, punctuation){
+    console.log(greeting + ", " + this.name + punctuation);
+}
+
+const person = {name: "AB"};
+
+greet.call(person, "hello", "!");

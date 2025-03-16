@@ -303,3 +303,11 @@ Event-Delegation -> It is a JAVASCRIPT technique where a single event listener i
       Its value depends on how and where the function is called.
 
 -->> When a funciton is called as a method of an object, this refers to that object.
+
+
+
+-->> call(), apply() & bind()
+
+call() -> Immediately executed
+apply() -> Immediately executed , Passed as an Array ([])
+bind() -> Returns a new funciton (delayed execution) , Passed individually

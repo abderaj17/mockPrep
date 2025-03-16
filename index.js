@@ -218,4 +218,13 @@ function adarsh(nickname = "Raj"){
 }
 adarsh();
 
-console.log(this);
+// console.log(this);
+
+
+const ab = {
+    name: "Alice",
+    greet(){
+        console.log(this.name);
+    }
+};
+ab.greet();

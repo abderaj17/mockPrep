@@ -217,3 +217,5 @@ function adarsh(nickname = "Raj"){
     console.log(`Hello, ${nickname}`);
 }
 adarsh();
+
+console.log(this);

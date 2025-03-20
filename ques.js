@@ -31,5 +31,16 @@ console.log(evenOdd(8));
 //q-3 Factorial
 
 function factorialCal(num){
-    let fact = num.reduce((acc, n)=> )
+ if(num == 0 || num == 1){
+    return 1;
+ }else{
+    return num * factorialCal(num - 1);
+ }
 }
+console.log(factorialCal(4));
+
+function sum(arr){
+    let allSum = arr.reduce((acc, n)=> acc + n, 0);
+    return allSum;
+}
+console.log(sum([5,5, 3,5,3,2,2]));

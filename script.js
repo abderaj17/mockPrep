@@ -102,3 +102,13 @@ async function example() {
         console.log(err);
     }
 }
+
+
+function removeDuplicate(){
+    let arr = [2,3,3,44,44, 55, 34,4];
+
+    let newSet = new Set(arr);
+
+    console.log( newSet);
+}
+removeDuplicate();

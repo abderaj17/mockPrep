@@ -86,19 +86,14 @@ nav li {
   --text-color:#fff;
 }
 
-body{
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--background-color);
-  color: var(--text-color);
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-header{
-  background-color: var(--primary-color);
+body.dark-theme {
+  background-color: #333;
   color: #fff;
-  border: 0.5rem 1rem;
-  cursor: pointer;
 }
-button: :hover{
+body.dark-theme header {
   background-color: #444;
+}
+body.dark-theme button {
+  background-color: #555;
+  color: #fff;
 }

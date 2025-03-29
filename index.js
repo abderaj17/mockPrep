@@ -213,26 +213,26 @@
 
 
 //default parameter in function
-function adarsh(nickname = "Raj"){
-    console.log(`Hello, ${nickname}`);
-}
-adarsh();
+// function adarsh(nickname = "Raj"){
+//     console.log(`Hello, ${nickname}`);
+// }
+// adarsh();
 
 // console.log(this);
 
 
-const ab = {
-    name: "Alice",
-    greet(){
-        console.log(this.name);
-    }
-};
-ab.greet();
+// const ab = {
+//     name: "Alice",
+//     greet(){
+//         console.log(this.name);
+//     }
+// };
+// ab.greet();
 
-function greet(greeting, punctuation){
-    console.log(greeting + ", " + this.name + punctuation);
-}
+// function greet(greeting, punctuation){
+//     console.log(greeting + ", " + this.name + punctuation);
+// }
 
-const person = {name: "AB"};
+// const person = {name: "AB"};
 
-greet.call(person, "hello", "!");
+// greet.call(person, "hello", "!");

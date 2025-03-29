@@ -44,3 +44,26 @@ function sum(arr){
     return allSum;
 }
 console.log(sum([5,5, 3,5,3,2,2]));
+
+
+// q-4 Palindrome
+
+function palindromeCheck(str){
+    let reverse = str.split("").reverse().join("");
+      return str === reverse ? "Palindrome" : "Not Palindrome";
+}
+
+console.log(palindromeCheck("madam"));
+
+
+// q-5 Prime number
+
+function primeCheck(num){
+    if(num == 1){
+        return "Not Prime";
+    }
+    for(let i = 2; i < num; i++){
+        return num % i == 0 ? "Not Prime" : "Prime";
+    }
+}
+console.log(primeCheck(56));

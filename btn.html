@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+    <button id="increment" onmousedown="startIncrement()" onmouseup="stopIncrement()" onmouseleave="stopIncrement()">++</button>
+    <button id="decrement">--</button>
+
+    <script>
+        const incrementBtn = document.getElementById('increment');
+        const decrementBtn = document.getElementById('decrement');
+
+     let count = 0;
+
+     let headCount = document.createElement('h1');
+     headCount.textContent = count;
+     document.body.appendChild(headCount);
+     
+        incrementBtn.addEventListener('click', () => {
+            count++;
+            headCount.textContent = count;
+            console.log(count);
+        });
+
+        decrementBtn.addEventListener('click', () => {
+            count--;
+            headCount.textContent = count;
+            console.log(count);
+        });
+
+    </script>
+</body>
+</html>

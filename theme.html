@@ -3,22 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Theme Converter</title>
+    <title>Document</title>
+
     <style>
-        body {
+        body{
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
             transition: background-color 0.3s, color 0.3s;
+
         }
-        body.light {
+        body.light{
             background-color: white;
             color: black;
         }
-        body.dark {
+        body.dark{
             background-color: black;
             color: white;
         }
-        .theme-toggle {
+        .theme-toggle{
             position: fixed;
             top: 10px;
             right: 10px;
@@ -36,11 +38,12 @@
     <button class="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
 
     <script>
-        function toggleTheme() {
+        function toggleTheme(){
             const body = document.body;
             body.classList.toggle('light');
             body.classList.toggle('dark');
         }
     </script>
+    
 </body>
 </html>
